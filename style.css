@@ -1,0 +1,103 @@
+/* Set the default font family for the entire body of the webpage to Arial and sans-serif */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Reset the default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the font size for all paragraphs within the 'about' section to 40px */
+#about p {
+    font-size: 40px;
+}
+
+/* Center and set the font size and family for all h1 elements within the 'about' section */
+#about h1 {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+/* Center and set the font size and family for all h1 elements within the 'menu' section */
+#menu h1 {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+/* Center and set the font size and family for all h1 elements within the 'contact' section */
+#contact h1 {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+#contact p {
+    font-size: 20px;
+}
+
+/* Reset the default margin for all h1 elements */
+h1 {
+    margin: 0;
+}
+
+/* Set the display property for the 'nav' element to 'flex' */
+nav {
+    display: flex;
+    height: 80px;
+}
+
+img {
+    height: 1050px;
+
+}
+
+.card {
+    border-radius: 20px;
+}
+
+/* Set the margin and text-decoration for all 'a' elements within the 'nav' section */
+nav a {
+    margin-right: 1em;
+    text-decoration: none;
+}
+
+/* Set the padding for all 'section' elements */
+section {
+    padding: 1em;
+}
+
+/* Collapse the borders of all 'table' elements and set their width to 100% */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Set the border, padding, and text-alignment for all 'th' and 'td' elements */
+th,
+td {
+    border: 1px solid black;
+    padding: 0.5em;
+    text-align: left;
+}
+
+/* Set the background color, font weight for all 'th' elements */
+th {
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+/* Set the margin-bottom for all elements with the class 'row' */
+.row {
+    margin-bottom: 8px;
+}
+
+section {
+    background-color: azure;
+    border-radius: 10px;
+}
