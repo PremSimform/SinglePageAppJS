@@ -16,6 +16,10 @@ body {
     font-size: 40px;
 }
 
+img {
+    height: 1250px;
+}
+
 /* Center and set the font size and family for all h1 elements within the 'about' section */
 #about h1 {
     text-align: center;
